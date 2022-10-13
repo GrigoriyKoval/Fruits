@@ -56,6 +56,9 @@ a {
 .fruits__item--banana::before{
 background-image: url(https://cdn-icons-png.flaticon.com/512/2060/2060940.png);
 }
+.fruits__item--orange::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1148/1148259.png);
+}
 .fruits__text{
   text-align: center;
 }
