@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ol,
+ul,
+menu {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.fruits__title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.fruits__list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.fruits__item{
+  width: 100px;
+  height: 100px;
+  background-color: #08ff6383;
+  position: relative;
+}
+.fruits__item::before{
+  content:"";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 36px;
+  left: 24px;
+  background-size: contain;
+ 
+}
+.fruits__item--lemon::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/8546/8546727.png);
+}
+.fruits__item--banana::before{
+background-image: url(https://cdn-icons-png.flaticon.com/512/2060/2060940.png);
+}
+.fruits__text{
+  text-align: center;
+}
