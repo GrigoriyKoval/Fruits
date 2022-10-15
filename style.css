@@ -24,41 +24,129 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-.fruits__title{
+.fruits__title {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-.fruits__list{
+.fruits__list {
   display: flex;
-  justify-content: space-between;
-
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.fruits__item{
+.fruits__item {
   width: 100px;
   height: 100px;
   background-color: #08ff6383;
   position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
-.fruits__item::before{
-  content:"";
+.fruits__item::before {
+  content: "";
   position: absolute;
   width: 50px;
   height: 50px;
   top: 36px;
   left: 24px;
   background-size: contain;
- 
 }
-.fruits__item--lemon::before{
+.fruits__item--lemon::before {
   background-image: url(https://cdn-icons-png.flaticon.com/512/8546/8546727.png);
 }
-.fruits__item--banana::before{
-background-image: url(https://cdn-icons-png.flaticon.com/512/2060/2060940.png);
+.fruits__item--banana::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2060/2060940.png);
 }
-.fruits__item--orange::before{
+.fruits__item--orange::before {
   background-image: url(https://cdn-icons-png.flaticon.com/512/1148/1148259.png);
 }
-.fruits__text{
+.fruits__item--grape::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/6974/6974053.png);
+}
+.fruits__item--pear::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/6498/6498607.png);
+}
+.fruits__item--dragon__fruit::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2224/2224312.png);
+}
+.fruits__item--apple::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/415/415682.png);
+}
+.fruits__item--cherry::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3137/3137038.png);
+}
+.fruits__item--kiwi::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3049/3049414.png);
+}
+.fruits__item--passion__fruit::before {
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1791/1791364.png);
+}
+.fruits__text {
   text-align: center;
+}
+.container2 {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.vegetables__title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.vegetables__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.vegetables__item {
+  width: 100px;
+  height: 100px;
+  background-color: #08ff6383;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.vegetables__item::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 36px;
+  left: 24px;
+  background-size: contain;
+}
+.vegetables__text{
+  text-align: center;
+}
+.vegetables__item--carrot::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/883/883760.png);
+}
+.vegetables__item--potato::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1652/1652127.png);
+}
+.vegetables__item--onion::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1330/1330443.png);
+}
+.vegetables__item--cucumber::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/590/590694.png);
+}
+.vegetables__item--tomato::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1202/1202125.png);
+}
+.vegetables__item--cabbage::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/765/765618.png);
+}
+.vegetables__item--beet::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/5194/5194813.png);
+}
+.vegetables__item--pumpkin::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/381/381054.png);
+}
+.vegetables__item--zucchini::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/1514/1514958.png);
+}
+.vegetables__item--corn::before{
+  background-image: url(https://cdn-icons-png.flaticon.com/512/2619/2619499.png);
 }
